@@ -194,6 +194,18 @@ class _ChatScreenState extends State<ChatScreen> {
                       Container(
                         margin: const EdgeInsets.symmetric(horizontal: 4.0),
                         child: IconButton(
+                          icon: const Icon(Icons.mic),
+                          onPressed: () {
+                            // Voice recording logic placeholder
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(content: Text('Voice input coming soon!')),
+                            );
+                          },
+                        ),
+                      ),
+                      Container(
+                        margin: const EdgeInsets.symmetric(horizontal: 4.0),
+                        child: IconButton(
                           icon: const Icon(Icons.send),
                           onPressed: () => _handleSubmitted(_textController.text),
                         ),

@@ -6,6 +6,7 @@ A simple Flutter application that implements a chat interface for an AI assistan
 - Clean, modern chat UI with Material 3 design.
 - Differentiates between user and AI messages.
 - Displays a typing indicator when the AI is "thinking".
+- Voice support: Dictate messages to the AI assistant instead of typing.
 - Responsive layout supporting multiple devices.
 
 ## Tech Stack
